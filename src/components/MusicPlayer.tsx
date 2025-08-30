@@ -12,33 +12,33 @@ const MusicPlayer: React.FC = () => {
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
-
 const songs = [
   {
     title: "Banadeek Taala",
     artist: "Amr Diab",
     duration: "3:15",
-    src: "/amrmo/songs/01_Banadeek_Taala.mp3"
+    src: "/songs/01_Banadeek_Taala.mp3",
   },
   {
-    title: "Ewediny",
-    artist: "Hamaki",
+    title: "Eweidny",
+    artist: "Amr Diab",
     duration: "5:43",
-    src: "/amrmo/songs/01_-_Ewediny.mp3"
+    src: "/songs/01_Eweidny.mp3",
   },
   {
     title: "Omry Maak",
     artist: "Angham",
     duration: "5:30",
-    src: "/amrmo/songs/01._Omry_Maak.mp3"
+    src: "/songs/01_Omry_Maak.mp3",
   },
   {
-    title: "Meen Momken",
+    title: "Meen Monken",
     artist: "Tamer Hosny",
-    duration: "4:27",
-    src: "/amrmo/songs/01.Meen_Momken.mp3"
+    duration: "4:07",
+    src: "/songs/01_Meen_Monken.mp3",
   },
-];
+]
+
 
 
 
